@@ -1,0 +1,73 @@
+.grid{
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Tablet  & PC low */
+@media (min-width: 740px) and (max-width: 1023px){
+    .wide{
+        width: 644px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px){
+    .wide{
+        width: 984px;
+    }
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.c-0{
+    display: none;
+}
+
+.l-2{
+    max-width: 16.666%;
+    flex: 0 0 16.666%;
+}
+
+.l-4{
+    max-width: 33.222%;
+    flex: 0 0 33.222%;
+}
+
+.l-5{
+    max-width: 41.665%;
+    flex: 0 0 41.665%;
+}
+
+.l-6{
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.l-7{
+    max-width: 58.331%;
+    flex: 0 0 58.331%;
+}
+
+.l-8{
+    max-width: 66.664%;
+    flex: 0 0 66.664%;
+}
+.l-12{
+    max-width: 1009%;
+    flex: 0 0 100%;
+}
