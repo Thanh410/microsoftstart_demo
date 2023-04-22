@@ -345,22 +345,24 @@ html{
 
 .swiper-wrapper{
   display: flex;
-  width: 100%;
+  width: 310px!important;
   height: 100%;
   position: relative;
-  z-index: 1;
+  z-index: 1111;
   box-sizing: content-box;
   
 }
 
-.wripper__slider{
+.swiper-slide{
   cursor: pointer;
-  flex-shrink: 0;
-  height: 100%;
+  background-position: center;
+  background-size: cover;
   width: 300px;
+  height: 300px;
+  
 }
 
-.wripper__slider img{
+.swiper-slide img{
   display: block;
   width: 100%;
 }
@@ -368,18 +370,18 @@ html{
 /* End swiper  */
 
 .img-fluid{
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
-.swiper__btn-prev:hover,
-.swiper__btn-next:hover{
+.swiper-btn-prev:hover,
+.swiper-btn-next:hover{
   color: #ffffff;
   background: #3D6CDC;
 }
 /* Add arrows */
-.swiper__btn-next,
-.swiper__btn-prev{
+.swiper-btn-next,
+.swiper-btn-prev{
   position: absolute;
   top: 50%;
   width: 33px;
@@ -394,12 +396,12 @@ html{
   cursor: pointer;
 }
 
-.swiper__btn-next{
+.swiper-btn-next{
   right: auto;
   left: 10px;
 }
 
-.swiper__btn-prev{
+.swiper-btn-prev{
   right: 10px;
   left: auto;
 }

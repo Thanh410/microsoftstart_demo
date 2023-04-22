@@ -16,3 +16,31 @@
 //   }
 //   x[slideIndex-1].style.display = "block";
 // }
+
+
+// swiper
+
+var swiper = new Swiper(".swiper-container", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    
+    spaceBetween: 30,
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-btn-prev",
+        prevEl: ".swiper-btn-next",
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+  });
