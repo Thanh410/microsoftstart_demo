@@ -10,13 +10,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://start.microsoftapp.net/favicon-32x32.png"/>
     <link rel="stylesheet" href="./app.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="main">
 
-        <header class="header" id=" top">
+        <header class="header" >
             <div class="grid wide">
                 
                     <div class="nav__container">
@@ -29,7 +29,7 @@
                         <div class="header__nav">
                             <ul class="header__nav-list">
                                 <li class="header__nav-item">
-                                    <a href="" class="header__nav-link active">Home</a>
+                                    <a href="#" class="header__nav-link active">Home</a>
                                 </li>
                                 <li class="header__nav-item">
                                     <a href="#News" class="header__nav-link" >News</a>
@@ -44,9 +44,12 @@
                                     <a href="#Download" class="header__nav-link" >Download</a>
                                 </li>
                             </ul>
+                            <div class="header__download">
+                                <button class="btn btn-download">Download</button>
+                            </div>
                         </div>
-                        <div class="header__download">
-                            <button class="btn btn-download">Download</button>
+                        <div class="header__navBtn">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
                         </div>
                     </div>   
             </div>
@@ -215,6 +218,16 @@
                                     <div class="swiper-slide">
                                         <img src="https://sapphire.azureedge.net/readme/website/20230407-2/images/locales/en/screenshots/sa-apps-07.png" alt="" class="img-fluid">
                                     </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://sapphire.azureedge.net/readme/website/20230407-2/images/locales/en/screenshots/sa-apps-08.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://sapphire.azureedge.net/readme/website/20230407-2/images/locales/en/screenshots/sa-apps-09.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://sapphire.azureedge.net/readme/website/20230407-2/images/locales/en/screenshots/sa-apps-10.png" alt="" class="img-fluid">
+                                    </div> 
+                                    
                                 <div class="swiper-pagination"></div>
                               </div>
                             
@@ -327,7 +340,7 @@
                     </div>
             </div>
         </footer>
-        <a href="#" class="swiper__btn-top text-center">
+        <a href="#" class="swiper__back-top text-center">
             <i class="swiper__btn-icon fa fa-angle-down" aria-hidden="true"></i>
         </a>
     </div>
@@ -349,3 +362,4 @@
     }
 </script>
 
+<script src="./jquery.min.js"></script>

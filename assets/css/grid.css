@@ -12,7 +12,7 @@
 /* Tablet  & PC low */
 @media (min-width: 740px) and (max-width: 1023px){
     .wide{
-        width: 644px;
+        width: 720px;
     }
 }
 
@@ -68,6 +68,6 @@
     flex: 0 0 66.664%;
 }
 .l-12{
-    max-width: 1009%;
+    max-width: 100%;
     flex: 0 0 100%;
 }
