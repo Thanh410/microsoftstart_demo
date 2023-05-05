@@ -40,7 +40,7 @@
 
     }
     
-    /* @keyframes hideTop{
+    @keyframes hideTop{
         from{
             opacity: 1;
             transform: translateY(100%);
@@ -49,21 +49,73 @@
             opacity: 0;
             transform: translateY(0);
         }
-    } */
+    }
 }
 /* PC low */
 
 
 /* Mobile */
 @media (max-width: 740px){
-    .nav__container {
-        max-width: 740px;
-    }
-    /* .header__navBtn{
+    .header__navBtn{
         display: block;
         position: absolute;
-        top: 16px;
+        top: 12px;
         right: 0;
-    } */
+        color: rgba(0,0,0,.5);
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid rgba(0,0,0,.1);
+        padding: 6px 12px;
+        color: rgba(0,0,0,.1);
+    }
+    .container__heading{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .container__list-download{
+        display: block;
+        text-align: center;
+    }
+
+    .download-img{
+        width: 150px;
+    }
+
+    .nav__container{
+        display: block;
+        line-height: 80px;
+        padding: 8px 0;
+    }
+
+    .gutter-left{
+        display: none;
+    }
     
+    .remember{
+        text-align: justify;
+        padding: 0 8px;
+        margin: 30px 0;
+    }
+
+    .text-muted1{
+        margin: 0;
+    }
+
+    .art-news{
+        padding: 0;
+    }
+
+    .container__items{
+        flex: 1;
+    }
+
+    .swiper__back-top{
+        display: none;
+    }
+
+    .about-app__title{
+        font-size: 24px;
+    }
 }

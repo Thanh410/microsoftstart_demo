@@ -30,14 +30,26 @@ var swiper = new Swiper(".swiper-container", {
   var btnNav = document.querySelector('.header__navBtn');
   var navBar = document.querySelector('.header__nav');
   var heightHeader = navBar.clientHeight;
-    function showNav(){
-      navBar.classList.add('show');
-    }
-    function closeNav(){
-      navBar.classList.remove('show');
+  
+    // function showNav(){
+    //   navBar.classList.add('show');
+    // }
+    // function closeNav(){
+    //   navBar.classList.remove('show');
 
+    // }
+    // btnNav.addEventListener('click',showNav);
+
+
+    btnNav.onclick = function(){
+      var isClose = navBar.style.display === "block";
+      if(isClose){
+        navBar.style.display = "none";
+      }
+      else{
+        navBar.style.display = "block";
+      }
     }
-    btnNav.addEventListener('click',showNav);
     // Tu dong dong mo Menu
     var menuItems = document.querySelectorAll('.header__nav-list li a[href*="#"]');
     menuItems.forEach(menuItem => {

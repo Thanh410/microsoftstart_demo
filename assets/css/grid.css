@@ -71,3 +71,44 @@
     max-width: 100%;
     flex: 0 0 100%;
 }
+/* Mobile */
+@media (max-width: 740px){
+
+    .m-0{
+        display: none;
+    }
+    .m-2{
+        max-width: 16.666%;
+        flex: 0 0 16.666%;
+    }
+    
+    .m-4{
+        max-width: 33.222%;
+        flex: 0 0 33.222%;
+    }
+    
+    .m-5{
+        max-width: 41.665%;
+        flex: 0 0 41.665%;
+    }
+    
+    .m-6{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    
+    .m-7{
+        max-width: 58.331%;
+        flex: 0 0 58.331%;
+    }
+    
+    .m-8{
+        max-width: 66.664%;
+        flex: 0 0 66.664%;
+    }
+    .m-12{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+}
